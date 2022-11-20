@@ -1,0 +1,202 @@
+
+
+.presentation{
+
+    .container{
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        position: relative;   
+    }
+
+    p{
+        margin-top: -20px;
+
+        .quebrar-mobile{
+            display: none;
+        }
+    }
+
+    img{
+        width: 100%;
+        position: relative;
+    }
+
+
+    video{
+        
+        position: absolute;
+        top: 100px;
+        left: 760px;
+        z-index: -1;
+        padding: 0;
+    }
+
+
+
+}
+
+
+////////////////////////////// RESPONSIVO //////////////////////////////
+
+
+
+@media (max-width:1399px){
+
+    .presentation{
+
+        .row{
+            position: relative;
+            
+        }
+    
+    
+        img{
+            width: 100%;
+            position: relative;
+        }
+    
+    
+        video{
+            width: 430px;
+            position: absolute;
+            top: 80px;
+            left: 650px;
+            z-index: -1;
+            padding: 0;
+        }
+
+    }
+
+   
+
+
+
+}
+
+@media (max-width:1199px){
+
+    .presentation{
+
+
+        img{
+            width: 100%;
+            position: relative;
+        }
+
+      .quebrar-mobile{
+        display: none;
+      }
+    
+    
+        video{
+            width: 350px;
+            position: absolute;
+            top: 70px;
+            left: 560px;
+            z-index: -1;
+            padding: 0;
+        }
+
+    }  
+
+}
+
+@media (max-width:991px){
+
+    .presentation{
+
+ 
+
+        .row{
+            
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            
+        }
+
+        img{
+            width: 100%;
+            position: relative;
+        }
+
+    
+    
+        video{
+            width: 270px;
+            position: absolute;
+            top: 100px;
+            left: 420px;
+            z-index: -1;
+            padding: 0;
+        }
+
+    }
+}
+
+    
+
+@media (max-width:414px){
+
+   
+    .presentation{
+
+        margin: 40px 0;
+
+        .container{
+            margin: 0;
+            padding: 0;
+        }
+
+        .row{
+            margin: 0;
+            padding: 0;
+            position: relative;
+            
+
+            .col-sm-6{
+                display: flex;
+                flex-direction: column;
+            }
+
+            h2{
+                text-align: center;
+                font-size: 30px;
+            }
+
+            p{
+                text-align: center;
+                font-size: 18px;
+                padding-top: 10px;
+                .quebrar-mobile{
+                    display: block;
+                }
+            }
+
+            img{
+                width: 100%;
+                position: relative;
+              
+            }
+
+            video{
+                width: 72%;
+                position: absolute;
+                top: 205px;
+                left: 55px;
+                z-index: -1;
+                padding: 0;
+            }
+
+
+        }
+
+    }
+  
+
+}

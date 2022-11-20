@@ -1,0 +1,70 @@
+
+
+.container-header{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+
+    .logo{
+        padding-left: 56px;
+    }
+
+    .itens{
+       padding-right: 56px;
+    }
+
+    a{
+     margin-left: 30px;
+    }
+
+    .entrar{
+        border: 1px solid #000000;
+    }
+
+}
+
+////////////////////////////// RESPONSIVO //////////////////////////////
+
+@media (max-width:414px){
+
+    .container-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        .logo{
+            padding-left: 10px;
+            
+            img{
+                width: 90px;
+            }
+
+        }
+
+        .itens{
+            padding-right: 10px;
+
+            img{
+                width: 90px;
+            }
+
+            .entrar{
+                img{
+                    width: 70px; 
+                }
+            }
+
+         }
+
+     
+         a{
+          margin-left: 10px;
+         }
+
+    }
+
+}

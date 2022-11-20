@@ -1,0 +1,38 @@
+
+//colors
+$black: #000000;
+$red: #E50914;
+$white: #FFFFFF;
+$grey: #303030;
+
+
+//Fonts:
+$font: 'Roboto', sans-serif;
+
+body{
+    margin: 0;
+    background-color: $black;
+    font-family: $font;
+    
+    h1,h2,h3,h4,h5{
+        font-size: 50px;
+        font-weight: 700;
+        color: $white;
+    }
+
+    p{
+        font-size: 26px;
+        margin-top: 24px;
+        color: $white;
+    }
+}
+
+//Bordas pelo site
+.borda{
+    width: 100%;
+    height: 8px;
+    background-color: $grey;
+}
+
+
+

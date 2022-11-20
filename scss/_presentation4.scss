@@ -1,0 +1,113 @@
+
+
+.presentation-4{
+
+    margin-top: 55px;
+    margin-bottom: 55px;
+
+    .row{
+        display: flex;
+        align-items: center;  
+    }
+
+    .titulo-presentation-4{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    p{
+        margin-top: -20px;
+        line-height: 90%; 
+    }
+
+}
+
+
+
+
+////////////////////////////// RESPONSIVO //////////////////////////////
+
+
+@media (max-width:1200px){
+
+    .presentation-4{
+
+        .row{
+
+            img{
+                width: 100%;
+               
+            }
+    
+
+        }  
+
+    }
+
+}
+
+
+@media (max-width:991px){
+
+    .presentation-4{
+
+        .row{
+
+            img{
+                width: 100%;
+               
+            }
+    
+
+        }
+
+    }
+
+}
+
+
+
+@media (max-width:414px){
+
+    .presentation-4{
+
+        .container{
+           width: 100%;
+           box-sizing: border-box;
+        }
+
+        .row{
+
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+
+        .titulo-presentation-4{
+            font-size: 28px;
+            padding-bottom: 10px;
+
+            
+            br{
+                display: none;
+            }
+
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 100%;
+            
+        }   
+
+        img{
+            width: 90%;
+        }
+
+
+    }
+
+
+}
